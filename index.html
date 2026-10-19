@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Louie Tapayan — student and aspiring web developer. Explore my skills, projects, and contact information.">
+  <title>Louie Tapayan | Student Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-glow glow-one" aria-hidden="true"></div>
+  <div class="page-glow glow-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Louie Tapayan home"><span class="brand-mark">&lt;/&gt;</span><span>louie<span class="brand-dot">.</span>dev</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link nav-contact" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE TO LEARN & COLLABORATE</p>
+        <h1>Hi, I'm <span class="gradient-text">Louie Tapayan.</span><br>Student. <span class="outline-text">Aspiring Developer.</span></h1>
+        <p class="hero-description">I’m learning to turn ideas into useful, user-friendly digital experiences through code, creativity, and continuous practice.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact">Contact information</a>
+        </div>
+        <div class="hero-meta">
+          <div class="meta-item"><span class="meta-icon">⌘</span><span><strong>Learning by building</strong><small>One project at a time</small></span></div>
+          <div class="meta-item"><span class="meta-icon">✦</span><span><strong>Curious by nature</strong><small>Tech, design & ideas</small></span></div>
+        </div>
+      </div>
+      <div class="hero-visual profile-visual" aria-label="Louie's profile photo">
+        <div class="profile-orbit profile-orbit-one"></div><div class="profile-orbit profile-orbit-two"></div>
+        <div class="profile-frame">
+          <img class="profile-photo" src="assets/images/profile-placeholder.jpg" alt="Louie Tapayan profile photo placeholder">
+          <div class="profile-caption"><span class="status-dot"></span><span><strong>Louie Tapayan</strong><small>Student · Aspiring Developer</small></span></div>
+        </div>
+        <div class="floating-chip chip-html"><span>&lt;/&gt;</span> HTML</div>
+        <div class="floating-chip chip-css"><span>#</span> CSS</div>
+        <div class="floating-chip chip-js"><span>JS</span> JavaScript</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>A little about <span class="gradient-text">who I am.</span></h2>
+        <p class="section-intro">A student with a growing interest in technology and building things that make life easier.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-panel panel">
+          <div class="panel-symbol">✳</div>
+          <h3>Learning. Creating. Improving.</h3>
+          <p>I'm Louie, a student and aspiring developer who enjoys exploring how websites and digital tools work. I'm developing my skills in front-end web development and learning how thoughtful design and clear code can create a better user experience.</p>
+          <p>My goal is to become a professional web developer who builds practical, accessible, and user-friendly systems. I believe every project is an opportunity to learn something new.</p>
+          <div class="about-tags"><span>Problem solving</span><span>Creativity</span><span>Continuous learning</span></div>
+        </div>
+        <div class="about-side">
+          <div class="mini-card panel"><span class="mini-icon">🎮</span><div><h3>Outside the code</h3><p>Gaming, anime, movies, and music.</p></div></div>
+          <div class="mini-card panel"><span class="mini-icon">🎨</span><div><h3>Creative interests</h3><p>Design, visual ideas, and exploring technology.</p></div></div>
+          <div class="mini-card panel"><span class="mini-icon">🚀</span><div><h3>My direction</h3><p>Grow into a professional web developer.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">02 / SKILLS</p>
+        <h2>Tools I’m <span class="gradient-text">working with.</span></h2>
+        <p class="section-intro">My current skill set is a work in progress. I keep practicing and improving through coursework and personal projects.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card panel"><div class="skill-icon html-icon">&lt;/&gt;</div><div class="skill-title"><h3>HTML</h3><span>01</span></div><p>Structuring web pages with meaningful, organized content.</p><div class="skill-track"><span style="width:70%"></span></div><small>Learning & practicing</small></article>
+        <article class="skill-card panel"><div class="skill-icon css-icon">✦</div><div class="skill-title"><h3>CSS</h3><span>02</span></div><p>Styling layouts, colors, spacing, and responsive interfaces.</p><div class="skill-track"><span style="width:65%"></span></div><small>Learning & practicing</small></article>
+        <article class="skill-card panel"><div class="skill-icon js-icon">JS</div><div class="skill-title"><h3>JavaScript</h3><span>03</span></div><p>Adding interactivity and behavior to websites.</p><div class="skill-track"><span style="width:45%"></span></div><small>Building fundamentals</small></article>
+        <article class="skill-card panel"><div class="skill-icon office-icon">▦</div><div class="skill-title"><h3>MS Office</h3><span>04</span></div><p>Preparing documents, presentations, and organized information.</p><div class="skill-track"><span style="width:70%"></span></div><small>Practical use</small></article>
+      </div>
+      <p class="skills-note"><span>ⓘ</span> Skill indicators are illustrative, not formal test scores. Update them as your experience grows.</p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading projects-heading">
+        <div><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects & <span class="gradient-text">practice.</span></h2><p class="section-intro">A growing collection of school work and experiments. Replace the placeholders with your own screenshots and links.</p></div>
+        <span class="project-count">03 PROJECT SLOTS</span>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card panel">
+          <div class="project-image"><img class="project-screenshot" src="assets/projects/LibAi.jpg" alt="FixTrack project screenshot placeholder"><span class="image-label">REPLACE WITH YOUR SCREENSHOT</span></div>
+          <div class="project-body"><div class="project-topline"><span class="project-type">WEB APPLICATION</span><span class="project-number">01</span></div><h3>LibAi</h3><p>A proposed web-based system concept for Book Borrowing using RFID and Managing Inventory.</p><div class="project-tags"><span>Django</span><span>Bootstrap</span><span>SQLite</span></div><div class="project-links"><a href="#contact" class="text-link">Ask about this project <span>↗</span></a><button class="copy-link" data-copy="FixTrack Maintenance System" aria-label="Copy project name">Copy name</button></div></div>
+        </article>
+        <article class="project-card panel">
+          <div class="project-image"><img class="project-screenshot" src="assets/projects/Maze Escape.png" alt="Website project screenshot placeholder"><span class="image-label">REPLACE WITH YOUR SCREENSHOT</span></div>
+          <div class="project-body"><div class="project-topline"><span class="project-type">WEB APPLICATION</span><span class="project-number">02</span></div><h3>Maze Escape</h3><p>A proposed web-based Survival Game the game start with a dungeon and like a Maze and you need to Find the 3 keys to get out but first you need to defeat the enemy.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>Responsive UI</span></div><div class="project-links"><a href="#contact" class="text-link">Ask about this project <span>↗</span></a><button class="copy-link" data-copy="Responsive Website Practice" aria-label="Copy project name">Copy name</button></div></div>
+        </article>
+        <article class="project-card panel">
+          <div class="project-image"><img class="project-screenshot" src="assets/projects/next-project-placeholder.svg" alt="Additional project screenshot placeholder"><span class="image-label">REPLACE WITH YOUR SCREENSHOT</span></div>
+          <div class="project-body"><div class="project-topline"><span class="project-type">CLASS PROJECT</span><span class="project-number">03</span></div><h3>More Projects Coming Soon</h3><p>Use this card for another class activity, coding exercise, or system prototype as you complete more work.</p><div class="project-tags"><span>Practice</span><span>Problem solving</span><span>Growth</span></div><div class="project-links"><a href="#contact" class="text-link">Get in touch <span>↗</span></a><button class="copy-link" data-copy="More Projects Coming Soon" aria-label="Copy project name">Copy name</button></div></div>
+        </article>
+      </div>
+      <p class="projects-tip"><span>✦</span> To add your own photos, replace the placeholder image files in <code>assets/images/</code> and <code>assets/projects/</code>. See README.md for the exact filenames.</p>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-panel panel">
+        <div class="contact-copy"><p class="eyebrow">04 / CONTACT INFORMATION</p><h2>Let’s connect and <span class="gradient-text">keep learning.</span></h2><p>Have a question about a project or want to share an idea? Reach out through the contact details below.</p><div class="contact-note"><span class="contact-note-icon">✉</span><span><strong>Open to learning opportunities</strong><small>Student projects, feedback, and collaboration.</small></span></div></div>
+        <div class="contact-details">
+          <div class="contact-item"><span class="contact-icon">✉</span><div><small>EMAIL</small><a href="mailto:louietapayan4@gmail.com">louietapayan4@gmail.com</a></div><button class="icon-button" data-copy="louietapayan4@gmail.com" aria-label="Copy email address">⧉</button></div>
+          <div class="contact-item"><span class="contact-icon">⌘</span><div><small>GITHUB</small><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Add your GitHub profile</a></div><span class="external-mark">↗</span></div>
+          <p class="contact-edit-note">Update the GitHub link with your own username before publishing.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span>louie<span class="brand-dot">.</span>dev</span></a><p>Designed & built by Louie Tapayan</p><a href="#home" class="back-top">Back to top ↑</a></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Louie Tapayan. Made for learning.</span><span>HTML <b>·</b> CSS <b>·</b> JavaScript</span></div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
